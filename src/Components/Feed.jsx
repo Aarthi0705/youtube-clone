@@ -25,7 +25,7 @@ const Feed = () => {
         </Typography>
     </Box>
     <Box p ={ 2 } sx ={{ overflowwY : 'auto' , 
-    height :'90vh', flex: 2}}> 
+    height :'auto', flex: 2}}> 
    <Typography variant='h4' 
    fontWeight='bold' mb = { 2 } sx = {{
     color: "white"

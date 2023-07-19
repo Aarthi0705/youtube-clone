@@ -1,8 +1,7 @@
 import React,{ useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Paper, IconButton } from '@mui/material';
-import { Search} from '@mui/icons-material'
-import { setSelectionRange } from '@testing-library/user-event/dist/utils';
+import { Search} from '@mui/icons-material';
  
 
 const SearchBar = () => {
@@ -35,6 +34,7 @@ const SearchBar = () => {
             placeholder='Search...'
             value={searchTerm}
             onChange={(e) => setsearchTerm(e.target.value)}
+            sx= {{ p:'14px'}}
         />
         <IconButton type = 'submit' sx= {{ p:'10px' , color : 'red'}}>
             <Search/>
