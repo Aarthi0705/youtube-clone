@@ -45,6 +45,7 @@ a {
   outline:none;
   width:350px;
   font-size:20px;
+  display: flex;
 }
 
 .category-btn{

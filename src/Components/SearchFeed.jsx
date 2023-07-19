@@ -12,8 +12,8 @@ const SearchFeed = () => {
       .then((data) => setVideos(data.items))
    } ,[searchTerm])
   return (
-    <Box p ={ 2 } sx ={{ overflowwY : 'auto' , 
-      height :'90vh', flex: 2}}> 
+    <Box p ={ 5 } sx ={{ overflowwY : 'auto' , 
+      height :'auto', flex: 2}}> 
       <Typography variant='h4' 
       fontWeight='bold' mb = { 2 } sx = {{
         color: "white"
